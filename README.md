@@ -7,7 +7,7 @@ In this work, we will use the R software and the Python programming language in 
 # How the AROME format works
 The AROME model works by integrating the fundamental equations of fluid dynamics and thermodynamics to simulate atmospheric changes. Here are the key steps in how it works: <br>
 
-**Initialization:** The AROME model begins with an initialization phase where the initial conditions of the atmosphere are defined. These conditions are often derived from larger-scale models, such as the ARPEGE (Action de Recherche Petite Echelle Grande Echelle) model, also developed by Météo-France.
-**Simulation:** The model then uses a fine grid to solve the meteorological equations. AROME's typical spatial resolution is 1.3 km, which allows it to capture fine details such as local relief and surface effects.
-**Data assimilation:** AROME integrates real-time observations, such as data from satellites, radars, and weather stations, to improve forecast accuracy. This step is crucial for adjusting forecasts based on current conditions.
+**Initialization:** The AROME model begins with an initialization phase where the initial conditions of the atmosphere are defined. These conditions are often derived from larger-scale models, such as the ARPEGE (Action de Recherche Petite Echelle Grande Echelle) model, also developed by Météo-France. <br>
+**Simulation:** The model then uses a fine grid to solve the meteorological equations. AROME's typical spatial resolution is 1.3 km, which allows it to capture fine details such as local relief and surface effects. <br>
+**Data assimilation:** AROME integrates real-time observations, such as data from satellites, radars, and weather stations, to improve forecast accuracy. This step is crucial for adjusting forecasts based on current conditions. <br>
 **Forecast production:** The model generates forecasts for specific meteorological variables, which are then stored in AROME format files. These files can be viewed and analyzed by meteorologists and researchers.
