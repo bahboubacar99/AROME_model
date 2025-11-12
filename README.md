@@ -1,4 +1,4 @@
-# AROME_model
+# AROME atmospheric model
 In this project, we will compare simulations made with the AROME atmospheric model with observations made at ground stations.
 In this study, we will perform a comparative statistical analysis between the temperature data observed by weather stations and those predicted by the AROME model. We will analyze quantitative statistical indicators such as the comparison of hourly temperature averages, the root mean square error (RMSE), and the bias. Data acquisition was carried out via the API packageArome for Arome data and packageObservations for Météo-France observation data. The decision to download Arome data via the API was motivated by the fact that Arome data is only available in real time, i.e., the Arome model makes predictions every three hours and, after each prediction, the previous data is no longer accessible to users unless a specific request is made to the relevant Météo-France services. For this reason, we set up a script to retrieve the data every day during the project. 
 # Prerequisites
