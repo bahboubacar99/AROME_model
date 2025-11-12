@@ -5,7 +5,7 @@ In this study, we will perform a comparative statistical analysis between the te
 In this work, we will use the R software and the Python programming language in the Jupyter Notebook environment for automated data processing. Temperature data extraction in GRIB2 format was performed using the [**R gribr package**](https://github.com/nawendt/gribr), which depends on the [**ECMWF ecCodes (version 2.19.0)**](https://confluence.ecmwf.int/display/ECC/ecCodes+Home) and **proj4 R packages**. As the gribr and ecCodes packages are not available for Windows, a [**Unix environment was installed via Cygwin**](https://cygwin.com/install.html). After configuring the various libraries, all processing was performed in **JupyterLab**, an interactive environment dedicated to data analysis.
 
 # How the AROME format works
-The AROME model works by integrating the fundamental equations of fluid dynamics and thermodynamics to simulate atmospheric changes. Here are the key steps in how it works:
+The AROME model works by integrating the fundamental equations of fluid dynamics and thermodynamics to simulate atmospheric changes. Here are the key steps in how it works: <br>
 
 **Initialization:** The AROME model begins with an initialization phase where the initial conditions of the atmosphere are defined. These conditions are often derived from larger-scale models, such as the ARPEGE (Action de Recherche Petite Echelle Grande Echelle) model, also developed by Météo-France.
 **Simulation:** The model then uses a fine grid to solve the meteorological equations. AROME's typical spatial resolution is 1.3 km, which allows it to capture fine details such as local relief and surface effects.
