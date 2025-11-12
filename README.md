@@ -11,3 +11,9 @@ The AROME model works by integrating the fundamental equations of fluid dynamics
 **Simulation:** The model then uses a fine grid to solve the meteorological equations. AROME's typical spatial resolution is 1.3 km, which allows it to capture fine details such as local relief and surface effects. <br>
 **Data assimilation:** AROME integrates real-time observations, such as data from satellites, radars, and weather stations, to improve forecast accuracy. This step is crucial for adjusting forecasts based on current conditions. <br>
 **Forecast production:** The model generates forecasts for specific meteorological variables, which are then stored in AROME format files. These files can be viewed and analyzed by meteorologists and researchers.
+
+## Auteurs
+
+- **Boubacar BAH** – [GitHub](https://github.com/bahboubacar99)  
+- **Prodjinotho Anselme** – [Email](mailto:Pprinceanselme3@gmail.com)
+
